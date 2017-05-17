@@ -1,0 +1,6 @@
+netgloo\controllers\MainController.class
+netgloo\controllers\UserController.class
+netgloo\configs\DatabaseConfig.class
+netgloo\models\UserDao.class
+netgloo\models\User.class
+netgloo\Application.class
