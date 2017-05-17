@@ -1,6 +1,6 @@
-C:\Users\Sunita\AWorkingDirectory\RCB\ClassWork\Java\spring-boot-mysql-hibernate\spring-boot-mysql-hibernate\src\main\java\netgloo\controllers\MainController.java
-C:\Users\Sunita\AWorkingDirectory\RCB\ClassWork\Java\spring-boot-mysql-hibernate\spring-boot-mysql-hibernate\src\main\java\netgloo\controllers\UserController.java
-C:\Users\Sunita\AWorkingDirectory\RCB\ClassWork\Java\spring-boot-mysql-hibernate\spring-boot-mysql-hibernate\src\main\java\netgloo\Application.java
-C:\Users\Sunita\AWorkingDirectory\RCB\ClassWork\Java\spring-boot-mysql-hibernate\spring-boot-mysql-hibernate\src\main\java\netgloo\configs\DatabaseConfig.java
-C:\Users\Sunita\AWorkingDirectory\RCB\ClassWork\Java\spring-boot-mysql-hibernate\spring-boot-mysql-hibernate\src\main\java\netgloo\models\User.java
-C:\Users\Sunita\AWorkingDirectory\RCB\ClassWork\Java\spring-boot-mysql-hibernate\spring-boot-mysql-hibernate\src\main\java\netgloo\models\UserDao.java
+C:\Users\Sunita\AWorkingDirectory\RCB\ClassWork\Java\spring-user-info\src\main\java\netgloo\models\UserDao.java
+C:\Users\Sunita\AWorkingDirectory\RCB\ClassWork\Java\spring-user-info\src\main\java\netgloo\configs\DatabaseConfig.java
+C:\Users\Sunita\AWorkingDirectory\RCB\ClassWork\Java\spring-user-info\src\main\java\netgloo\models\User.java
+C:\Users\Sunita\AWorkingDirectory\RCB\ClassWork\Java\spring-user-info\src\main\java\netgloo\Application.java
+C:\Users\Sunita\AWorkingDirectory\RCB\ClassWork\Java\spring-user-info\src\main\java\netgloo\controllers\UserController.java
+C:\Users\Sunita\AWorkingDirectory\RCB\ClassWork\Java\spring-user-info\src\main\java\netgloo\controllers\MainController.java

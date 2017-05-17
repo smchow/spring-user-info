@@ -6,12 +6,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class MainController {
-
+	//Annotation for mapping
+	// web requests onto specific handler classes and/or handler methods. 
   @RequestMapping("/")
   @ResponseBody
   public String index() {
-    return "Proudly handcrafted by " + 
-        "<a href='http://netgloo.com/en'>netgloo</a> :)";
+    return "Welcome to the User Info Page " + 
+        " - Please enter your information:";
   }
 
 }

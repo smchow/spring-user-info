@@ -2,6 +2,7 @@ package netgloo.controllers;
 
 import netgloo.models.User;
 import netgloo.models.UserDao;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,13 +20,21 @@ public class UserController {
   @ResponseBody
   //localhost:8080/user/all
   public String all() {
+    List<User> userList;
     try {
-      _userDao.getAll();
+      userList = _userDao.getAll();
     }
     catch(Exception ex) {
       return ex.getMessage();
     }
-    return "success kind of!";
+    String res = "Here is the user list:";
+    for (int i = 0; i < userList.size(); i++) {
+      System.out.println(i);
+    User curUser = (User) userList.get(i);
+    System.out.println(curUser.toString());
+    res = res +  curUser.getName() + " - " + curUser.getEmail() ;
+}
+    return   res;
   }
   
   @RequestMapping(value="/delete")
